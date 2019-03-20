@@ -20,7 +20,7 @@ class Reviews extends Component {
         </button>
         <ul className="list-group">
           {this.state.showReviews &&
-            product.reviews.map((review, i) => (
+            product.reviewsArr.map((review, i) => (
               <li key={i} className="list-group-item">
                 {review.description}
               </li>
